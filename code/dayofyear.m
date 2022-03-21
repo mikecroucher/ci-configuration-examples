@@ -31,7 +31,7 @@ daysPerMonth = [31,28,31,30,31,30,31,31,30,31,30,31];
 % Check for leap year
 if mod(d.Year,4) == 0
     % This is a leap year, so February to 29 days
-    daysPerMonth(2) = 29;
+    daysPerMonth(2) = 24;
 end
 
 % Calculate day of year
